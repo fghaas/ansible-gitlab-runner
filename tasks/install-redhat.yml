@@ -1,9 +1,8 @@
 ---
-
 - name: RHEL | Install GitLab GPG key
   rpm_key:
     state: present
-    key: https://packages.gitlab.com/gpg.key
+    key: 'https://packages.gitlab.com/runner/gitlab-runner/gpgkey'
   when: ansible_os_family == 'RedHat'
   tags:
     - gitlab

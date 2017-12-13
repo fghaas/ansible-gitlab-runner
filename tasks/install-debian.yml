@@ -1,7 +1,7 @@
 ---
 - name: Add GitLab apt key
   apt_key:
-    url: https://packages.gitlab.com/gpg.key
+    url: 'https://packages.gitlab.com/runner/gitlab-runner/gpgkey'
     state: present
 
 - name: Install GitLab Runner dependencies
