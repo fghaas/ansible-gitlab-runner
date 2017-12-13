@@ -6,7 +6,7 @@ This role will install the [official GitLab Runner](https://gitlab.com/gitlab-or
 Requirements
 ------------
 
-This role requires Ansible 2.0 or higher.
+This role requires Ansible 2.1 or higher.
 
 
 Role Variables
