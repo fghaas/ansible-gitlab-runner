@@ -3,7 +3,6 @@
   rpm_key:
     state: present
     key: 'https://packages.gitlab.com/runner/gitlab-runner/gpgkey'
-  when: ansible_os_family == 'RedHat'
   tags:
     - gitlab
     - gitlab-gpg
